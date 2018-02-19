@@ -6,11 +6,51 @@
     float:right;
 }
 
+#ap{
+    padding-top:30px;
+}
+
+#bp{
+    padding-top: 70px;
+}
+
+#cp, #dp{
+    padding-top: 60px;
+}
+
+#ep, #fp, #gp, #hp{
+    padding-top: 105px;
+}
+
+#ip{
+    padding-top: 30px;
+}
+
 @media only screen and (min-width: 768px) {
     .leftBox{
         float:left;
     }
     .rightBox{
         float:right;
+    }
+
+    #ap{
+        padding-top:40px;
+    }
+    
+    #bp{
+        padding-top: 300px;
+    }
+    
+    #cp, #dp{
+        padding-top: 70px;
+    }
+    
+    #ep, #fp, #gp, #hp{
+        padding-top: 105px;
+    }
+    
+    #ip{
+        padding-top: 50px;
     }
 }

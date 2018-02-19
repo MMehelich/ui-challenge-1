@@ -1,0 +1,16 @@
+#e, #g{
+    float:left;
+}
+
+#f, #h{
+    float:right;
+}
+
+@media only screen and (min-width: 768px) {
+    .leftBox{
+        float:left;
+    }
+    .rightBox{
+        float:right;
+    }
+}
